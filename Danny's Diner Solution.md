@@ -222,8 +222,7 @@ GROUP BY s.customer_id
 |B          |360         |
 
 ***
-### 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, 
-###     not just sushi - how many points do customer A and B have at the end of January?
+### 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
 ````sql
 SELECT m.customer_id
