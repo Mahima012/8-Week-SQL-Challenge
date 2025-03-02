@@ -16,7 +16,7 @@ ON S.product_id = M.product_id
 GROUP BY s.customer_id;
 ````
 
-### Output
+### Output:
 |customer_id|total_amt|
 |-----------|---------|
 |A          |76       |
@@ -24,7 +24,6 @@ GROUP BY s.customer_id;
 |C          |36       |
 
 ***
-
 
 ### 2. How many days has each customer visited the restaurant? 
 
@@ -34,6 +33,15 @@ SELECT customer_id
 FROM sales
 GROUP BY customer_id;
 ````
+
+### Output:
+|customer_id|days_visited|
+|-----------|------------|
+|A          |4           |
+|B          |6           |
+|C          |2           |
+
+***
 
 ### 3. What was the first item from the menu purchased by each customer?
 
@@ -53,6 +61,16 @@ FROM cte
 WHERE rn = 1
 ````
 
+### Output:
+|customer_id|product_name|
+|-----------|------------|
+|A          |curry       |
+|A          |sushi       |
+|B          |curry       |
+|C          |ramen       |
+
+***
+
 ### 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 
 ````sql
@@ -64,6 +82,13 @@ ON m.product_id = s.product_id
 GROUP BY m.product_name,m.product_id
 ORDER BY 2 DESC
 ````
+
+### Output:
+|product_name|times_purchased|
+|------------|---------------|
+|ramen       |8              |
+
+***
 
 ### 5. Which item was the most popular for each customer?
 
