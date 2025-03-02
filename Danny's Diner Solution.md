@@ -109,6 +109,17 @@ FROM cte
 WHERE rn = 1
 ````
 
+### Output:
+|customer_id|product_name|
+|-----------|------------|
+|A          |ramen       |
+|B          |sushi       |
+|B          |curry       |
+|B          |ramen       |
+|C          |ramen       |
+
+***
+
 ### 6. Which item was purchased first by the customer after they became a member?
 
 ````sql
@@ -131,6 +142,13 @@ FROM cte
 WHERE rn = 1
 ````
 
+### Output:
+|customer_id|product_name|
+|-----------|------------|
+|A          |curry       |
+|B          |sushi       |
+
+***
 ### 7. Which item was purchased just before the customer became a member?
 
 ````sql
@@ -153,6 +171,14 @@ FROM cte
 WHERE rn = 1
 ````
 
+### Output:
+|customer_id|product_name|
+|-----------|------------|
+|A          |sushi       |
+|A          |curry       |
+|B          |sushi       |
+
+***
 ### 8. What is the total items and amount spent for each member before they became a member?
 
 ````sql
@@ -168,6 +194,13 @@ WHERE s.order_date < m.join_date
 GROUP BY s.customer_id
 ````
 
+### Output:
+|customer_id|total_items|total_amt|
+|-----------|-----------|---------|
+|A          |2          |25       |
+|B          |3          |40       |
+
+***
 ###  9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 
 ````sql
@@ -181,6 +214,14 @@ ON s.product_id = m.product_id
 GROUP BY s.customer_id
 ````
 
+### Output:
+|customer_id|points      |
+|-----------|------------|
+|A          |860         |
+|A          |940         |
+|B          |360         |
+
+***
 ### 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, 
 ###     not just sushi - how many points do customer A and B have at the end of January?
 
@@ -199,3 +240,11 @@ ON s.product_id = mu.product_id
 WHERE MONTH(s.order_date) = 1
 GROUP BY m.customer_id
 ````
+
+### Output:
+|customer_id|points      |
+|-----------|------------|
+|A          |1370        |
+|A          |820         |
+
+***
