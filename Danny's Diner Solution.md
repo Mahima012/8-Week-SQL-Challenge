@@ -16,6 +16,16 @@ ON S.product_id = M.product_id
 GROUP BY s.customer_id;
 ````
 
+### Output
+|customer_id|total_amt|
+|-----------|---------|
+|A          |76       |
+|B          |74       |
+|C          |36       |
+
+***
+
+
 ### 2. How many days has each customer visited the restaurant? 
 
 ````sql
@@ -150,9 +160,10 @@ GROUP BY s.customer_id
 ###     not just sushi - how many points do customer A and B have at the end of January?
 
 ````sql
-SELECT m.customer_id,
-      SUM (CASE WHEN s.product_id = 1 THEN (mu.price * 10 *2) 
-	            WHEN s.product_id IN (2,3) AND s.order_date between m.join_date and DATEADD(DAY,6,m.join_date) THEN (mu.price * 10 *2) 
+SELECT m.customer_id
+       ,SUM (CASE WHEN s.product_id = 1 THEN (mu.price * 10 *2) 
+	            WHEN s.product_id IN (2,3) AND s.order_date between m.join_date and DATEADD(DAY,6,m.join_date) 
+                    THEN (mu.price * 10 *2) 
 	            ELSE (mu.price * 10) END )
 		AS points
 FROM members AS m
