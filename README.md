@@ -2,6 +2,8 @@
 All of the 8 Week SQL Challenge case studies can be found below:
 
 ***
+
+### Case Studies....👇
 Case Study #1 - Danny's Diner
 Case Study #2 - Pizza Runner
 Case Study #3 - Foodie-Fi
