@@ -2,7 +2,7 @@
 
 ## Queries with Ouput
 
-[Check the Complete Query](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Danny's%20Diner.sql)
+[Check the Complete Query]([https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Danny's%20Diner.sql](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20%3A%20Danny's%20Diner/Danny's%20Diner.sql))
 
 *** 
 ### 1. What is the total amount each customer spent at the restaurant?
