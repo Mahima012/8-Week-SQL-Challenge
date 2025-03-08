@@ -6,6 +6,7 @@ All of the 8 Week SQL Challenge case studies can be found below:
 ### Case Studies....👇
 
 [Case Study #1 - Danny's Diner](https://8weeksqlchallenge.com/case-study-1/)
+
 <img src="https://8weeksqlchallenge.com/images/case-study-designs/1.png" alt="Image" width="500" height="520">
 
 [Case Study #2 - Pizza Runner](https://8weeksqlchallenge.com/case-study-2/)
