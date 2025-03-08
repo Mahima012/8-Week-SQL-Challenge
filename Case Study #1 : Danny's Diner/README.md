@@ -1,7 +1,10 @@
 # Case Study 1 - Danny's Diner
-<img src="https://user-images.githubusercontent.com/81607668/127727503-9d9e7a25-93cb-4f95-8bd0-20b87cb4b459.png" alt="Image" width="500" height="520">
 
 [Case Study #1 - Danny's Diner](https://8weeksqlchallenge.com/case-study-1/)
+
+<img src="https://user-images.githubusercontent.com/81607668/127727503-9d9e7a25-93cb-4f95-8bd0-20b87cb4b459.png" alt="Image" width="500" height="520">
+
+[My Solution - With Output]([https://8weeksqlchallenge.com/case-study-1/](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20%3A%20Danny's%20Diner/Danny's%20Diner%20Solution.md))
 
 ***
 ### Problem Statement
