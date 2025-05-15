@@ -57,7 +57,7 @@ This case study has LOTS of questions - they are broken up by area of focus incl
 2. What was the most commonly added extra?
 3. What was the most common exclusion?
 4. Generate an order item for each record in the customers_orders table in the format of one of the following:
-   a) Meat Lovers
+   - Meat Lovers
    b) Meat Lovers - Exclude Beef
    c) Meat Lovers - Extra Bacon
    d) Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers
