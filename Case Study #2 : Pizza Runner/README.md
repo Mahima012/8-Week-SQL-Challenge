@@ -5,8 +5,8 @@
 
 <img src="https://8weeksqlchallenge.com/images/case-study-designs/2.png" alt="Image" width="500" height="520">
 
-Checkout: [My Solution - With Output](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20%3A%20Danny's%20Diner/Danny's%20Diner%20Solution.md)
-https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Pizza%20Runner.png
+Checkout: [My Solution - With Output]("")
+
 ***
 ### Description
 
