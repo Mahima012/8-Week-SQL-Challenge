@@ -21,7 +21,7 @@ This case study has LOTS of questions - they are broken up by area of focus incl
 
 ### Entity Relationship Diagram:
 
-![image](https://user-images.githubusercontent.com/81607668/127271130-dca9aedd-4ca9-4ed8-b6ec-1e1920dca4a8.png)
+![image](https://dbdiagram.io/d/5f3e085ccf48a141ff558487/?utm_source=dbdiagram_embed&utm_medium=bottom_open)
 ***
 
 ### Case Study Questions
@@ -58,11 +58,11 @@ This case study has LOTS of questions - they are broken up by area of focus incl
 3. What was the most common exclusion?
 4. Generate an order item for each record in the customers_orders table in the format of one of the following:
    - Meat Lovers
-   b) Meat Lovers - Exclude Beef
-   c) Meat Lovers - Extra Bacon
-   d) Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers
+   - Meat Lovers - Exclude Beef
+   - Meat Lovers - Extra Bacon
+   - Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers
 6. Generate an alphabetically ordered comma separated ingredient list for each pizza order from the customer_orders table and add a 2x in front of any relevant ingredients
-   **.**For example: "Meat Lovers: 2xBacon, Beef, ... , Salami"
+   -For example: "Meat Lovers: 2xBacon, Beef, ... , Salami"
 7. What is the total quantity of each ingredient used in all delivered pizzas sorted by most frequent first?
 
    
@@ -70,19 +70,19 @@ This case study has LOTS of questions - they are broken up by area of focus incl
 
 1. If a Meat Lovers pizza costs $12 and Vegetarian costs $10 and there were no charges for changes - how much money has Pizza Runner made so far if there are no delivery fees?
 2. What if there was an additional $1 charge for any pizza extras?
-    **.**Add cheese is $1 extra
+    -Add cheese is $1 extra
 3. The Pizza Runner team now wants to add an additional ratings system that allows customers to rate their runner, how would you design an additional table for this new dataset - generate a schema for this new table and insert your own data for ratings for each successful customer order between 1 to 5.
 4. Using your newly generated table - can you join all of the information together to form a table which has the following information for successful deliveries?
-    **.**customer_id
-    **.**order_id
-    **.**runner_id
-    **.**rating
-    **.**order_time
-    **.**pickup_time
-    **.**Time between order and pickup
-    **.**Delivery duration
-    **.**Average speed
-    **.**Total number of pizzas
+    - customer_id
+    - order_id
+    - runner_id
+    - rating
+    - order_time
+    - pickup_time
+    - Time between order and pickup
+    - Delivery duration
+    - Average speed
+    - Total number of pizzas
 5. If a Meat Lovers pizza was $12 and Vegetarian $10 fixed prices with no cost for extras and each runner is paid $0.30 per kilometre traveled - how much money does Pizza Runner have left over after these deliveries?
 
    
