@@ -59,8 +59,11 @@ This case study has LOTS of questions - they are broken up by area of focus incl
 4. Generate an order item for each record in the customers_orders table in the format of one of the following:
    
    a) Meat Lovers
+   
    b) Meat Lovers - Exclude Beef
+   
    c) Meat Lovers - Extra Bacon
+   
    d) Meat Lovers - Exclude Cheese, Bacon - Extra Mushroom, Peppers
 6. Generate an alphabetically ordered comma separated ingredient list for each pizza order from the customer_orders table and add a 2x in front of any relevant ingredients
    **.**For example: "Meat Lovers: 2xBacon, Beef, ... , Salami"
