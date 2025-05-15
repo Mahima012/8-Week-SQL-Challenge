@@ -21,7 +21,7 @@ This case study has LOTS of questions - they are broken up by area of focus incl
 
 ### Entity Relationship Diagram:
 
-![image](https://dbdiagram.io/d/5f3e085ccf48a141ff558487/?utm_source=dbdiagram_embed&utm_medium=bottom_open)
+![image](https://dbdiagram.io/d/5f3e085ccf48a141ff558487/?utm_source=dbdiagram_embed&utm_medium=bottom_open.png)
 ***
 
 ### Case Study Questions
