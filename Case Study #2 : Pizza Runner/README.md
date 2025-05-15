@@ -12,8 +12,8 @@ Checkout: [My Solution - With Output](https://github.com/Mahima012/8-Week-SQL-Ch
 
 This case study has LOTS of questions - they are broken up by area of focus including:
 
-.Pizza Metrics
-.Runner and Customer Experience
+ .Pizza Metrics
+ .Runner and Customer Experience
 .Ingredient Optimisation
 .Pricing and Ratings
 .Bonus DML Challenges (DML = Data Manipulation Language)
