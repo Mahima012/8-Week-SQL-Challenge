@@ -12,11 +12,9 @@ Checkout: [My Solution - With Output](https://github.com/Mahima012/8-Week-SQL-Ch
 
 This case study has LOTS of questions - they are broken up by area of focus including:
 
-Pizza Metrics
-
-Runner and Customer Experience
-
-Ingredient Optimisation
+1. Pizza Metrics
+2. Runner and Customer Experience
+3. Ingredient Optimisation
 
 Pricing and Ratings
 
