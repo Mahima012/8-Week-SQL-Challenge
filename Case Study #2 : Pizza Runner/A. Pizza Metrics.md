@@ -1,6 +1,6 @@
 # Case Study-2 : Pizza Runner
 
-## Pizza Metrics
+## A. PIZZA METRICS
 
 ## Queries with Output
 
