@@ -88,7 +88,7 @@ ON S.product_id = M.product_id
 SELECT DISTINCT customer_id
        ,product_name
 FROM cte
-WHERE rn = 1
+WHERE rn = 1;
 
 
 -- 4. What is the most purchased item on the menu and how many times was it purchased by all customers? --
@@ -98,7 +98,7 @@ FROM menu as m
 LEFT JOIN sales as s
 ON m.product_id = s.product_id
 GROUP BY m.product_name,m.product_id
-ORDER BY 2 DESC
+ORDER BY 2 DESC;
 
 
 -- 5. Which item was the most popular for each customer? --
@@ -115,7 +115,7 @@ GROUP BY s.customer_id,m.product_name
 SELECT customer_id
        ,product_name
 FROM cte
-WHERE rn = 1
+WHERE rn = 1;
 
 
 -- 6. Which item was purchased first by the customer after they became a member?  --
@@ -135,7 +135,7 @@ ON s.product_id = mu.product_id)
 SELECT customer_id
        ,product_name
 FROM cte
-WHERE rn = 1
+WHERE rn = 1;
 
 
 -- 7. Which item was purchased just before the customer became a member? --
@@ -155,7 +155,7 @@ ON s.product_id = mu.product_id)
 SELECT customer_id
        ,product_name
 FROM cte
-WHERE rn = 1
+WHERE rn = 1;
 
 
 -- 8. What is the total items and amount spent for each member before they became a member? --
@@ -168,7 +168,7 @@ on s.customer_id = m.customer_id
 LEFT JOIN menu as mu
 ON s.product_id = mu.product_id
 WHERE s.order_date < m.join_date 
-GROUP BY s.customer_id
+GROUP BY s.customer_id;
 
 
 -- 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have? --
@@ -179,7 +179,7 @@ SELECT s.customer_id
 FROM sales AS s
 LEFT JOIN menu AS m
 ON s.product_id = m.product_id
-GROUP BY s.customer_id
+GROUP BY s.customer_id;
 
 
 -- 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, 
@@ -195,5 +195,6 @@ ON m.customer_id = s.customer_id
 LEFT JOIN menu AS mu
 ON s.product_id = mu.product_id
 WHERE MONTH(s.order_date) = 1
-GROUP BY m.customer_id
+GROUP BY m.customer_id;
+
 
