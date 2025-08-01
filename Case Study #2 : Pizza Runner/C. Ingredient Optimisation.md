@@ -225,7 +225,7 @@ ORDER BY 1;
 ***
 ### 6). What is the total quantity of each ingredient used in all delivered pizzas sorted by most frequent first?
 
-```
+````sql
 WITH CTE AS
 (SELECT c.id
 	   ,c.order_id
