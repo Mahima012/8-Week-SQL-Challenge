@@ -7,8 +7,7 @@
 [Check the Complete Query](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20%3A%20Pizza%20Runner/Pizza%20Runner.sql)
 
 ***
-### 1). If a Meat Lovers pizza costs $12 and Vegetarian costs $10 and there were no charges for changes 
-- how much money has Pizza Runner made so far if there are no delivery fees?
+### 1). If a Meat Lovers pizza costs $12 and Vegetarian costs $10 and there were no charges for changes. How much money has Pizza Runner made so far if there are no delivery fees?
 
 ````sql
 SELECT SUM(CASE WHEN c.pizza_id = 1 THEN 12 ELSE 10 END) AS charges
@@ -45,7 +44,7 @@ WHERE r.pickup_time IS NOT NULL;
 - generate a schema for this new table and insert your own data for ratings for each successful customer order between 1 to 5.
 
 ````sql
-#simple maths to create a rating system
+#logic to create a rating mechanism
 SELECT order_id
 	   ,distance
        ,duration
@@ -67,7 +66,7 @@ ratings INTEGER)
 
 INSERT INTO ratings
 VALUES (1,4),
-	   (2,3),
+       (2,3),
        (3,4),
        (4,5),
        (5,4),
@@ -114,7 +113,7 @@ WHERE pickup_time IS NOT NULL
 GROUP BY 1,2,3,4,5,6,7,8,9;
 ````
 
-### Output:
+## Output:
 | customer_id | order_id | runner_id | ratings |     order_time      |    pickup_time     | time_to_pickup (min) | duration (min) | average_speed | total_pizzas |
 |-------------|----------|-----------|---------|----------------------|---------------------|-----------------------|----------------|----------------|---------------|
 |     101     |    1     |     1     |    4    | 2020-01-01 18:05:02  | 2020-01-01 18:15:34 |          10           |       32       |     37.5       |       1       |
