@@ -7,14 +7,14 @@
 [Check the Complete Query](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20%3A%20Pizza%20Runner/Pizza%20Runner.sql)
 
 ***
-### 1). How many pizzas were ordered?'
+### 1). How many pizzas were ordered?
 
 ````sql
 SELECT COUNT(pizza_id) AS total_orders
 FROM customer_orders_temp;
 ````
 
-### Output:
+#### Output:
 |total_orders|
 |------------|
 |14          |
@@ -27,7 +27,7 @@ SELECT COUNT(DISTINCT order_id) AS unique_cust
 FROM customer_orders_temp;
 ````
 
-### Output:
+#### Output:
 |unique_cust |
 |------------|
 |10          |
@@ -44,7 +44,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 ````
 
-### Output:
+#### Output:
 |runner_id|completed  |
 |---------|-----------|
 |1        |4          |
@@ -67,7 +67,7 @@ WHERE r.pickup_time IS NOT NULL
 GROUP BY 1,2;
 ````
 
-### Output:
+#### Output:
 | pizza_id | pizza_name  | price |
 |----------|-------------|-------|
 | 1        | Meatlovers  | 9     |
@@ -89,7 +89,7 @@ ON c.pizza_id = p.pizza_id
 GROUP BY 1;
 ````
 
-### Output:
+#### Output:
 | customer_id | meatlovers | vegeterian |
 |-------------|------------|------------|
 | 101         | 2          | 1          |
@@ -112,7 +112,7 @@ ORDER BY 3 DESC
 LIMIT 1;
 ````
 
-### Output
+#### Output
 | customer_id | order_id | total_pizzas |
 |-------------|----------|--------------|
 | 103         | 4        | 3            |
@@ -133,7 +133,7 @@ GROUP BY 1
 ORDER BY 1;
 ````
 
-### Output:
+#### Output:
 | customer_id | changes | no_change |
 |-------------|---------|-----------|
 | 101         | 0       | 2         |
@@ -153,7 +153,7 @@ WHERE exclusions IS NOT NULL
 AND extras IS NOT NULL;
 ````
 
-### Output:
+#### Output:
 | pizza_having_exclusions_n_extras |
 |----------------------------------|
 | 2                                |
@@ -170,7 +170,7 @@ GROUP BY 1
 ORDER BY 1;
 ````
 
-### Output:
+#### Output:
 | hour_of_day | orders |
 |-------------|--------|
 | 11          | 1      |
@@ -192,7 +192,7 @@ FROM customer_orders_temp
 GROUP BY 1,2
 ORDER BY 1;
 ````
-### Output:
+#### Output:
 | week_day | day_name   | orders |
 |----------|------------|--------|
 | 3        | Wednesday  | 5      |
