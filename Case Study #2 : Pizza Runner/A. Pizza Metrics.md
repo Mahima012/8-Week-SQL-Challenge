@@ -1,4 +1,10 @@
-# A. PIZZA METRICS
+# Case Study-2 : Pizza Runner
+
+## Pizza Metrics
+
+## Queries with Output
+
+[Check the Complete Query](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20%3A%20Pizza%20Runner/Pizza%20Runner.sql)
 
 ***
 ### 1). How many pizzas were ordered?'
