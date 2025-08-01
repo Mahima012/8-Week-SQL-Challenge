@@ -113,7 +113,7 @@ WHERE pickup_time IS NOT NULL
 GROUP BY 1,2,3,4,5,6,7,8,9;
 ````
 
-## Output:
+#### Output:
 | customer_id | order_id | runner_id | ratings |     order_time      |    pickup_time     | time_to_pickup (min) | duration (min) | average_speed | total_pizzas |
 |-------------|----------|-----------|---------|----------------------|---------------------|-----------------------|----------------|----------------|---------------|
 |     101     |    1     |     1     |    4    | 2020-01-01 18:05:02  | 2020-01-01 18:15:34 |          10           |       32       |     37.5       |       1       |
