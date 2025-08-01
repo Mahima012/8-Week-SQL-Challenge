@@ -7,7 +7,7 @@
 [Check the Complete Query](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20%3A%20Pizza%20Runner/Pizza%20Runner.sql)
 
 ***
-### 1). How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)
+### 1). How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)?
 
 ````sql
 SELECT WEEK(registration_date,1)+1 AS weeks
@@ -17,7 +17,7 @@ GROUP BY 1
 ORDER BY 1;
 ````
 
-### Output:
+#### Output:
 | weeks | registered_runners |
 |-------|--------------------|
 | 1     | 2                  |
@@ -38,7 +38,7 @@ GROUP BY 1
 ORDER BY 1;
 ````
 
-### Output:
+#### Output:
 | runner_id | order_to_pickup |
 |-----------|------------------|
 | 1         | 15.33            |
@@ -65,7 +65,7 @@ FROM CTE
 GROUP BY 1;
 ````
 
-### Output:
+#### Output:
 | pizzas | avg_time |
 |--------|----------|
 | 1      | 12       |
@@ -88,7 +88,7 @@ WHERE r.pickup_time IS NOT NULL
 GROUP BY 1;
 ````
 
-### Output:
+#### Output:
 | orders | avg_dist |
 |--------|----------|
 | 101    | 20       |
@@ -105,7 +105,7 @@ SELECT max(duration) - min(duration) as delivery_timediff
 FROM runner_orders_temp;
 ````
 
-### Output:
+#### Output:
 | delivery_timediff |
 |-------------------|
 | 30                |
@@ -122,7 +122,7 @@ WHERE pickup_time IS NOT NULL
 ORDER BY 2;
 ````
 
-### Output:
+#### Output:
 | runner_id | order_id | avg_speed |
 |-----------|----------|-----------|
 | 1         | 1        | 37.5      |
@@ -146,7 +146,7 @@ GROUP BY 1
 ORDER BY 1;
 ````
 
-### Output:
+#### Output:
 | runner_id | success_del |
 |-----------|-------------|
 | 1         | 100         |
