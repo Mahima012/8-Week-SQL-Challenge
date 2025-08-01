@@ -58,7 +58,7 @@ ON S.product_id = M.product_id
 SELECT DISTINCT customer_id
        ,product_name
 FROM cte
-WHERE rn = 1
+WHERE rn = 1;
 ````
 
 ### Output:
@@ -80,7 +80,7 @@ FROM menu as m
 LEFT JOIN sales as s
 ON m.product_id = s.product_id
 GROUP BY m.product_name,m.product_id
-ORDER BY 2 DESC
+ORDER BY 2 DESC;
 ````
 
 ### Output:
@@ -106,7 +106,7 @@ GROUP BY s.customer_id,m.product_name
 SELECT customer_id
        ,product_name
 FROM cte
-WHERE rn = 1
+WHERE rn = 1;
 ````
 
 ### Output:
@@ -139,7 +139,7 @@ ON s.product_id = mu.product_id)
 SELECT customer_id
        ,product_name
 FROM cte
-WHERE rn = 1
+WHERE rn = 1;
 ````
 
 ### Output:
@@ -168,7 +168,7 @@ ON s.product_id = mu.product_id)
 SELECT customer_id
        ,product_name
 FROM cte
-WHERE rn = 1
+WHERE rn = 1;
 ````
 
 ### Output:
@@ -191,7 +191,7 @@ on s.customer_id = m.customer_id
 LEFT JOIN menu as mu
 ON s.product_id = mu.product_id
 WHERE s.order_date < m.join_date 
-GROUP BY s.customer_id
+GROUP BY s.customer_id;
 ````
 
 ### Output:
@@ -211,7 +211,7 @@ SELECT s.customer_id
 FROM sales AS s
 LEFT JOIN menu AS m
 ON s.product_id = m.product_id
-GROUP BY s.customer_id
+GROUP BY s.customer_id;
 ````
 
 ### Output:
@@ -237,7 +237,7 @@ ON m.customer_id = s.customer_id
 LEFT JOIN menu AS mu
 ON s.product_id = mu.product_id
 WHERE MONTH(s.order_date) = 1
-GROUP BY m.customer_id
+GROUP BY m.customer_id;
 ````
 
 ### Output:
