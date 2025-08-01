@@ -10,6 +10,9 @@
 ### Created separate tables for exclusions and extras to extract the values in separate rows.
 
 ````sql
+ALTER TABLE customer_orders_temp
+ADD id INT AUTO_INCREMENT PRIMARY KEY;
+
 -- exclusions
 DROP TABLE IF EXISTS exclusions;
 CREATE TABLE exclusions
