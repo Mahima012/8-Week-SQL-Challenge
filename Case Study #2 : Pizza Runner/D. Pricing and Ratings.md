@@ -17,7 +17,7 @@ ON r.order_id = c.order_id
 WHERE r.pickup_time IS NOT NULL;
 ````
 
-### Output:
+#### Output:
 | charges |
 |---------|
 | 138     |
@@ -34,7 +34,7 @@ ON r.order_id = c.order_id
 WHERE r.pickup_time IS NOT NULL;
 ````
 
-### Output:
+#### Output:
 | charges |
 |---------|
 | 146     |
@@ -77,7 +77,7 @@ VALUES (1,4),
 SELECT * FROM ratings;
 ````
 
-### Output:
+#### Output:
 | order_id | ratings |
 |----------|---------|
 |    1     |    4    |
@@ -138,7 +138,7 @@ ON c.order_id = r.order_id
 WHERE r.cancellation IS NULL
 ````
 
-### Output:
+#### Output:
 | profit  |
 |---------|
 | 94.4    |
