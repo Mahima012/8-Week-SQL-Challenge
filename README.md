@@ -15,15 +15,9 @@ All of the 8 Week SQL Challenge case studies can be found below:
 
 
 
-[Case Study #2 - Pizza Runner](https://8weeksqlchallenge.com/case-study-2/)
+[Case Study #2 - Pizza Runner](https://github.com/Mahima012/8-Week-SQL-Challenge/tree/main/Case%20Study%20%232%20%3A%20Pizza%20Runner)
 
-[Solution #2 [A] Pizza Metrics](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20%3A%20Pizza%20Runner/A.%20Pizza%20Metrics.md)
 
- [ [B] Runner and Customer Experience](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20%3A%20Pizza%20Runner/B.%20Runner%20and%20Customer%20Exp.md)
-
- [ [C] Ingredient Optimisation](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20%3A%20Pizza%20Runner/C.%20Ingredient%20Optimisation.md)
-
- [ [D] Pricing and Ratings](https://github.com/Mahima012/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20%3A%20Pizza%20Runner/D.%20Pricing%20and%20Ratings.md)
 
 <img src="https://8weeksqlchallenge.com/images/case-study-designs/2.png" alt="Image" width="500" height="520">
 
